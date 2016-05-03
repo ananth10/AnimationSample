@@ -82,7 +82,7 @@
                 android:layout_gravity="left|center"
                 android:padding="8dp"
                 android:layout_marginTop="10dp"
-                android:text="Bounce Out Animation"
+                android:text="Bounce In Up Animation"
                 android:textColor="#000"
                 android:textSize="18sp" />
 

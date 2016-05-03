@@ -14,6 +14,7 @@ public class AnimationPlay extends AppCompatActivity {
     private Toolbar toolbar;
     private String mType;
     private ImageView mHeart;
+    long mDuration=1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,22 +50,22 @@ public class AnimationPlay extends AppCompatActivity {
         {
             case "landing":
                 YoYo.with(Techniques.Landing)
-                        .duration(2000)
+                        .duration(mDuration)
                         .playOn(findViewById(R.id.like_heart));
                 break;
             case "taking_off":
                 YoYo.with(Techniques.TakingOff)
-                        .duration(2000)
+                        .duration(mDuration)
                         .playOn(findViewById(R.id.like_heart));
                 break;
             case "bounce_in":
                 YoYo.with(Techniques.BounceIn)
-                        .duration(2000)
+                        .duration(mDuration)
                         .playOn(findViewById(R.id.like_heart));
                 break;
             case "bounce_in_up":
                 YoYo.with(Techniques.BounceInUp)
-                        .duration(2000)
+                        .duration(mDuration)
                         .playOn(findViewById(R.id.like_heart));
 
                 break;
